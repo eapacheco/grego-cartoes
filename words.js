@@ -161,7 +161,7 @@ let words = [
   },
   {
     greek: "πατήρ",
-    sub1: "-πατρός",
+    sub1: "πατρός",
     sub2: "ό",
     portuguese: "pai",
     clazz: Noun,
