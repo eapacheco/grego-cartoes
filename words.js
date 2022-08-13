@@ -2,6 +2,10 @@ const Noun = "noun"
 const Adjective = "adjective"
 const Conjuction = "conjunction"
 const Pronoun = "pronoun"
+const Adverb = "adverb"
+const Pronominal = "pronominal"
+const Numeral = "numeral"
+const Preposition = "preposition"
 
 let words = [
   {
@@ -269,5 +273,129 @@ let words = [
     portuguese: "como; conforme",
     clazz: Conjuction,
     volume: 3
+  },
+  {
+    greek: "ἀλλά",
+    portuguese: "mas, porém, exceto",
+    clazz: Conjuction,
+    volume: 4
+  },
+  {
+    greek: "ἁμαρτία",
+    sub1: "-ɑς",
+    sub2: "ἡ",
+    portuguese: "pecado",
+    clazz: Noun,
+    volume: 4
+  },
+  {
+    greek: "ἀρχιερεύς",
+    sub1: "-έως",
+    sub2: "ὁ",
+    portuguese: "sumo sacerdote, sacerdote principal",
+    clazz: Noun,
+    volume: 4
+  },
+  {
+    greek: "δέ",
+    portuguese: "mas, porém, e, também (Muitas vezes não é necessário traduzir)",
+    clazz: Conjuction,
+    volume: 4
+  },
+  {
+    greek: "δοῦλος",
+    sub1: "-ου",
+    sub2: "ὁ",
+    portuguese: "escravo",
+    clazz: Noun,
+    volume: 4
+  },
+  {
+    greek: "ἔθνος",
+    sub1: "-ους",
+    sub2: "τό",
+    portuguese: "povo, nação",
+    clazz: Noun,
+    volume: 4
+  },
+  {
+    greek: "ἐκεῖνος",
+    sub1: "-η",
+    sub2: "-ο",
+    portuguese: "aquele(a)",
+    clazz: Pronominal,
+    volume: 4
+  },
+  {
+    greek: "ἑπτά",
+    portuguese: "sete",
+    clazz: Numeral,
+    volume: 4
+  },
+  {
+    greek: "ἵνα",
+    portuguese: "para que, a fim de que; que, de que modo",
+    clazz: Conjuction,
+    volume: 4
+  },
+  {
+    greek: "οὐ",
+    sub1: "οὐκ",
+    sub2: "οὐχ",
+    portuguese: "não",
+    clazz: Adverb,
+    volume: 4
+  },
+  {
+    greek: "οὖν",
+    portuguese: "pois, portanto; então",
+    clazz: Adverb,
+    volume: 4
+  },
+  {
+    greek: "ὄχλος",
+    sub1: "-ου",
+    sub2: "ὁ",
+    portuguese: "multidão",
+    clazz: Noun,
+    volume: 4
+  },
+  {
+    greek: "πόλις",
+    sub1: "-εως",
+    sub2: "ἡ",
+    portuguese: "cidade",
+    clazz: Adverb,
+    volume: 4
+  },
+  {
+    greek: "πρός",
+    portuguese: "para, em prol de, para que, junto a, com",
+    clazz: Preposition,
+    volume: 4
+  },
+  {
+    greek: "χάρις",
+    sub1: "-℩τος",
+    sub2: "ἡ",
+    portuguese: "graça",
+    clazz: Noun,
+    volume: 4
+  },
+  {
+    greek: "χείρ",
+    sub1: "χειρός",
+    sub2: "ἡ",
+    portuguese: "mão",
+    clazz: Noun,
+    volume: 4
+  },
+  {
+    greek: "λαός",
+    sub1: "-οῦ",
+    sub2: "ὁ",
+    portuguese: "povo",
+    clazz: Noun,
+    volume: 4
   },
 ];
