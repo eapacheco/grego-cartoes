@@ -94,7 +94,7 @@ let words = [
   {
     greek: "ἅγιος",
     sub1: "-ɑ",
-    sub2: "ον",
+    sub2: "-ον",
     portuguese: "santo(a)",
     clazz: Adjective,
     volume: 2
