@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title>eapacheco/ Vocabulário Grego</title>
+
+    <!-- Libraries -->
+    <script src="https://kit.fontawesome.com/05ccc56f9f.js" crossorigin="anonymous"></script>
+
+    <!-- For Debugging -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/chart.js@3.7.1/dist/chart.min.js"></script> -->
+    <!-- <script src="https://livejs.com/live.js" type="text/javascript"></script> -->
+
+    <!-- Stylesheet -->
+    <link href="style.css" rel="stylesheet">
+
+    <!-- Declare words -->
+    <script src="words.js" type="text/javascript"></script>
+</head>
+
+<body>
+    <div class="caret-btn">
+        <a class="caret-btn-prev">
+            <i class="fa-solid fa-caret-left"></i>
+        </a>
+    </div>
+
+    <div class="flip-card">
+        <div class="flip-card-inner">
+            <div class="greek-box" style="display: flex">
+                <div class="container">
+                    <span class="greek-word"></span>,&nbsp;
+                    <span class="greek-sub1"></span>,&nbsp;
+                    <span class="greek-sub2"></span>
+                </div>
+            </div>
+
+            <div class="portuguese-box" style="display: none">
+                <div class="container">
+                    <span class="portuguese-word"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="caret-btn">
+        <a class="caret-btn-next">
+            <i class="fa-solid fa-caret-right"></i>
+        </a>
+    </div>
+
+    <!-- Script is only added after all components are declared -->
+    <script src="script.js" type="text/javascript"></script>
+</body>
+
+</html>

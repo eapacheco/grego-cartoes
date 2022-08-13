@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap");
+
+@media screen and (orientation: portrait) {
+  html {
+    transform: rotate(90deg);
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: linear-gradient(315deg, #e2cfea 0%, #6247aa 100%);
+  background-attachment: fixed;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+  margin: 0;
+}
+
+.flip-card {
+  margin: auto;
+  width: 375px;
+}
+
+.flip-card-inner {
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.portuguese-box {
+  transform: rotateY(180deg);
+}
+
+.container {
+  flex-direction: column;
+  padding: 1em;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  font-size: 2em;
+  width: 100%;
+}
+
+.caret-btn {
+  font-size: 60px;
+  margin: auto;
+}
+
+.caret-btn a {
+  color: black;
+}
