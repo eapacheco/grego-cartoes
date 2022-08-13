@@ -54,7 +54,7 @@ let words = [
   {
     greek: "καθαρός",
     sub1: "-ά",
-    sub2: "ὁν",
+    sub2: "-ὁν",
     portuguese: "puro(a)",
     clazz: Adjective,
     volume: 1
