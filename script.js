@@ -60,8 +60,10 @@ function writeWords() {
     greekSub1.textContent = currentWord.sub1
     greekSub2.textContent = currentWord.sub2
 
-    // Commas are not displayed for Conjunctions
-    document.querySelectorAll('.commas').forEach((ele) => ele.style.display = currentWord.clazz == Conjuction ? "none" : "flex")
+    // Commas are not displayed for some classes
+    document.querySelectorAll('.commas').forEach((ele) => ele.style.display = [
+        Conjuction, Pronoun
+    ].includes(currentWord.clazz) ? "none" : "flex")
 }
 
 // Shuffle array
