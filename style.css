@@ -1,11 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap");
 
-@media screen and (orientation: portrait) {
-  html {
-    transform: rotate(90deg);
-  }
-}
-
 * {
   box-sizing: border-box;
 }
@@ -16,13 +10,9 @@ body {
   font-family: "Poppins", sans-serif;
   display: flex;
   flex-direction: row;
+  align-items: center;
   height: 100vh;
   margin: 0;
-}
-
-.flip-card {
-  margin: auto;
-  width: 375px;
 }
 
 .flip-card-inner {
@@ -56,4 +46,16 @@ body {
 
 .caret-btn a {
   color: black;
+}
+
+/* RESPONSIVE SIZES */
+
+.flip-card {
+  width: 100%;
+}
+
+@media screen and (min-width: 400px) {
+  .flip-card {
+    width: 375px;
+  }
 }
