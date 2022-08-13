@@ -1,5 +1,6 @@
 const Noun = "noun"
 const Adjective = "adjective"
+const Conjuction = "conjunction"
 
 let words = [
   {
@@ -89,5 +90,97 @@ let words = [
     portuguese: "circunsição",
     clazz: Noun,
     volume: 1
+  },
+  {
+    greek: "ἅγιος",
+    sub1: "-ɑ",
+    sub2: "ον",
+    portuguese: "santo(a)",
+    clazz: Adjective,
+    volume: 2
+  },
+  {
+    greek: "ἀδελφός",
+    sub1: "-ου",
+    sub2: "ό",
+    portuguese: "irmão",
+    clazz: Noun,
+    volume: 2
+  },
+  {
+    greek: "ἄνθρωπος",
+    sub1: "-ου",
+    sub2: "ό",
+    portuguese: "homem; ser humano",
+    clazz: Noun,
+    volume: 2
+  },
+  {
+    greek: "γῆ",
+    sub1: "γῆς",
+    sub2: "ή",
+    portuguese: "Terra; terra",
+    clazz: Noun,
+    volume: 2
+  },
+  {
+    greek: "ἐν",
+    portuguese: "em; com; por",
+    clazz: Conjuction,
+    volume: 2
+  },
+  {
+    greek: "ἡμέρα",
+    sub1: "-ɑς",
+    sub2: "ή",
+    portuguese: "dia",
+    clazz: Noun,
+    volume: 2
+  },
+  {
+    greek: "θεός",
+    sub1: "-οῦ",
+    sub2: "ό",
+    portuguese: "Deus; deus",
+    clazz: Noun,
+    volume: 2
+  },
+  {
+    greek: "καί",
+    portuguese: "e; mas; também",
+    clazz: Conjuction,
+    volume: 2
+  },
+  {
+    greek: "οὐρανός",
+    sub1: "-οῦ",
+    sub2: "ό",
+    portuguese: "céu(s)",
+    clazz: Noun,
+    volume: 2
+  },
+  {
+    greek: "πατήρ",
+    sub1: "-πατρός",
+    sub2: "ό",
+    portuguese: "pai",
+    clazz: Noun,
+    volume: 2
+  },
+  {
+    greek: "πνεῦμα",
+    sub1: "-ατος",
+    sub2: "τό",
+    portuguese: "Espírito; espírito",
+    clazz: Noun,
+    volume: 2
+  },
+  {
+    greek: "υἱός",
+    sub1: "-οῦ",
+    sub2: "ό",
+    portuguese: "filho",
+    clazz: Noun,
+    volume: 2
   },
 ];

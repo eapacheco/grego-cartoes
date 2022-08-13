@@ -52,11 +52,16 @@ function init() {
 
 // Hide / Show pages given the current state index
 function writeWords() {
+    let currentWord = words[index]
+
     // Write dynamic data
-    portugueseWord.textContent = words[index].portuguese
-    greekWord.textContent = words[index].greek
-    greekSub1.textContent = words[index].sub1
-    greekSub2.textContent = words[index].sub2
+    portugueseWord.textContent = currentWord.portuguese
+    greekWord.textContent = currentWord.greek
+    greekSub1.textContent = currentWord.sub1
+    greekSub2.textContent = currentWord.sub2
+
+    // Commas are not displayed for Conjunctions
+    document.querySelectorAll('.commas').forEach((ele) => ele.style.display = currentWord.clazz == Conjuction ? "none" : "flex")
 }
 
 // Shuffle array
