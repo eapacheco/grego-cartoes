@@ -6,6 +6,7 @@ const Adverb = "adverb"
 const Pronominal = "pronominal"
 const Numeral = "numeral"
 const Preposition = "preposition"
+const Verb = "verb"
 
 let words = [
   {
@@ -397,5 +398,119 @@ let words = [
     portuguese: "povo",
     clazz: Noun,
     volume: 4
+  },
+  {
+    greek: "ἀγάπη",
+    sub1: "-ης",
+    sub2: "ἡ",
+    portuguese: "amor",
+    clazz: Noun,
+    volume: 5
+  },
+  {
+    greek: "αἰών",
+    sub1: "-ῶνος",
+    sub2: "ὁ",
+    portuguese: "idade, era, século; eternidade",
+    clazz: Noun,
+    volume: 5
+  },
+  {
+    greek: "ἀκούω",
+    portuguese: "eu ouço, eu escuto",
+    clazz: Verb,
+    volume: 5
+  },
+  {
+    greek: "γάρ",
+    portuguese: "pois, portanto; assim pois; a saber; com efeito; certamente",
+    clazz: Conjuction,
+    volume: 5
+  },
+  {
+    greek: "γινώσκω",
+    portuguese: "eu sei; eu conheço; eu compreendo",
+    clazz: Verb,
+    volume: 5
+  },
+  {
+    greek: "γράφω",
+    portuguese: "eu escrevo",
+    clazz: Verb,
+    volume: 5
+  },
+  {
+    greek: "δικαιωσύνη",
+    sub1: "-ης",
+    sub2: "ἡ",
+    portuguese: "justiça",
+    clazz: Noun,
+    volume: 5
+  },
+  {
+    greek: "εἰρήνη",
+    sub1: "-ης",
+    sub2: "ἡ",
+    portuguese: "paz",
+    clazz: Noun,
+    volume: 5
+  },
+  {
+    greek: "εἰς",
+    portuguese: "para; até; entre; por causa de",
+    clazz: Preposition,
+    volume: 5
+  },
+  {
+    greek: "εὑρίσκω",
+    portuguese: "eu encontro",
+    clazz: Verb,
+    volume: 5
+  },
+  {
+    greek: "θάνατός",
+    sub1: "-ου",
+    sub2: "ὁ",
+    portuguese: "morte",
+    clazz: Noun,
+    volume: 5
+  },
+  {
+    greek: "λαλέω",
+    portuguese: "du falo",
+    clazz: Verb,
+    volume: 5
+  },
+  {
+    greek: "πολύς",
+    sub1: "πολλή",
+    sub2: "πολύ",
+    portuguese: "muito(s), muita(s)",
+    clazz: Adjective,
+    volume: 5
+  },
+  {
+    greek: "σάρξ",
+    sub1: "σαρκός",
+    sub2: "ἡ",
+    portuguese: "carne",
+    clazz: Noun,
+    volume: 5
+  },
+  {
+    greek: "σῶμα",
+    sub1: "-ατος",
+    sub2: "τό",
+    portuguese: "corpo",
+    clazz: Noun,
+    volume: 5
+  },
+  {
+    greek: "φωνή",
+    sub1: "-ῆς",
+    sub2: "ἡ",
+    portuguese: "voz; som",
+    clazz: Noun,
+    volume: 5
   },
 ];
