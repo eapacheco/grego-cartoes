@@ -98,6 +98,78 @@ let words = [
     volume: 1
   },
   {
+    greek: "πίστις",
+    sub1: "-εως",
+    sub2: "ἡ",
+    portuguese: "fé",
+    clazz: Noun,
+    volume: 1
+  },
+  {
+    greek: "πρόβατον",
+    sub1: "-ου",
+    sub2: "τό",
+    portuguese: "ovelha",
+    clazz: Noun,
+    volume: 1
+  },
+  {
+    greek: "προσευχή",
+    sub1: "-ῆς",
+    sub2: "ἡ",
+    portuguese: "oração, prece",
+    clazz: Noun,
+    volume: 1
+  },
+  {
+    greek: "προφήτης",
+    sub1: "-ου",
+    sub2: "ὁ",
+    portuguese: "profeta",
+    clazz: Noun,
+    volume: 1
+  },
+  {
+    greek: "πρῶτος",
+    sub1: "-η",
+    sub2: "-ον",
+    portuguese: "primeiro",
+    clazz: Adjective,
+    volume: 1
+  },
+  {
+    greek: "φυλή",
+    sub1: "-ῆς",
+    sub2: "ἡ",
+    portuguese: "tribo",
+    clazz: Noun,
+    volume: 1
+  },
+  {
+    greek: "χριστός",
+    sub1: "-οῦ",
+    sub2: "-ὁ",
+    portuguese: "ungido",
+    clazz: Adjective,
+    volume: 1
+  },
+  {
+    greek: "ψυχή",
+    sub1: "-ῆς",
+    sub2: "ἡ",
+    portuguese: "alma; vida",
+    clazz: Noun,
+    volume: 1
+  },
+  {
+    greek: "ὄνομα",
+    sub1: "-ατος",
+    sub2: "τό",
+    portuguese: "circunsição",
+    clazz: Noun,
+    volume: 1
+  },
+  {
     greek: "ἅγιος",
     sub1: "-ɑ",
     sub2: "-ον",
